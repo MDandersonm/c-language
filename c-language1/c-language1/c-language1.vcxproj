@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="01_print.c" />
     <ClCompile Include="02_pointer.c" />
+    <ClCompile Include="calculator.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
