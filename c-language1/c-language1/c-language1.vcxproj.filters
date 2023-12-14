@@ -24,5 +24,8 @@
     <ClCompile Include="calculator.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="cpp_01_cout.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
