@@ -102,3 +102,4 @@ dkms.conf
 
 # 빌드 결과물
 c-language1/c-language1/x64/Debug/*
+c-language/x64/Debug/*
