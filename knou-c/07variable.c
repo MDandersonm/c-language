@@ -3,7 +3,7 @@
 
 //외부변수
 
-void main() {
+void main07() {
 	extern int k;//정의된 k가 다른 파일에 있어도 가져오기 가능
 
 	printf("k=%d \n", k);
@@ -20,3 +20,5 @@ void main() {
 	printf("최종 i = %d sum =%d", i, sum);
 }
 int k = 500;
+
+
