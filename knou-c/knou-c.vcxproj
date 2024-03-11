@@ -133,6 +133,8 @@
     <ClCompile Include="05function.c" />
     <ClCompile Include="06swap.c" />
     <ClCompile Include="07variable.c" />
+    <ClCompile Include="08pointer.c" />
+    <ClCompile Include="09pointer-operator.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

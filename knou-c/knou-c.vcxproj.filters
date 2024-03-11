@@ -33,5 +33,11 @@
     <ClCompile Include="07variable.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="08pointer.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="09pointer-operator.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
