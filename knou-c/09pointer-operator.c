@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main() {
+void main09() {
 	int* p;
 	int a[] = { 10,20,30,40,50 };
 	p = &a[0];
