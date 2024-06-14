@@ -113,7 +113,8 @@ void addMiddleNode(linkedList_h* L, int position, char* x) {//char* x[] 를 이렇�
 
 	newNode->link = NULL;
 
-	if (L->head == NULL) {//공백리스트인경우
+	//공백리스트인경우
+	if (L->head == NULL) {
 		L->head = newNode;
 		return;
 	}
@@ -122,29 +123,34 @@ void addMiddleNode(linkedList_h* L, int position, char* x) {//char* x[] 를 이렇�
 	listNode* temp = L->head;
 	listNode* prev = NULL;
 
-	int cnt=0;
+	//맨 앞에 삽입하는 경우
 	if (position == 0) {
 		newNode->link = L->head;
 		L->head = newNode;
 		return;
 	}
+
+	//중간에 삽입하는 경우
+	int cnt = 0;//삽입할 위치 인덱스 찾기 위한 변수
+	//cnt가 position(삽입할 위치인덱스) 이 될때 까지 찾아서 temp가 삽입할 위치 노드가 됨
 	while ( cnt !=position && temp->link !=NULL ) {
 		prev = temp;//이전노드
 		temp = temp->link;
 		cnt++;
 
 	}
-	printf("cnt: %d\n", cnt);
-	if (cnt == position) {
+	//printf("cnt: %d\n", cnt);
+	if (cnt == position) {//삽입할 위치노드를 찾았으면
 		prev->link = newNode;
 		newNode->link = temp;
 		printf(" = position cnt: %d\n", cnt);
 
 	}
+	//삽입할 위치를 찾기전에 리스트가 종료됨, 이러면 맨 마지막에 삽입시켜준다
 	else if(temp->link == NULL) {
 		temp->link = newNode;
-		printf("null cnt: %d\n", cnt);
-		printf("newNode->link: %p\n", temp->link);
+		//printf("null cnt: %d\n", cnt);
+		//printf("newNode->link: %p\n", temp->link);
 	
 	}
 
@@ -184,6 +190,7 @@ C 언어에서 malloc으로 할당된 메모리는 초기화되지 않습니다.
 	};
 	temp->link = newNode;//newNode의 link는 null로 유지해야 마지막 노드가됨
 }
+
 
 
 
@@ -235,6 +242,41 @@ void deleteFirstNode(linkedList_h* L) {
 	L->head = temp->link;
 	free(temp);
 	temp = NULL;
+}
+
+
+
+//중간노드 삭제
+void deleteNodeAtPosition(linkedList_h* L, int position) {
+	// 리스트가 비어있는 경우
+	if (L->head == NULL) return;
+
+	// head를 가리키는 임시 포인터
+	listNode* temp = L->head;
+
+	// 삭제하려는 노드가 첫 번째 노드인 경우
+	if (position == 0) {
+		L->head = temp->link;  // head를 다음 노드로 변경
+		free(temp);           // 원래의 head 노드 메모리 해제
+		return;
+	}
+
+	// 이전 노드를 찾기 위해 전진하고, 삭제할 노드의 이전 노드를 찾습니다
+	for (int i = 0; temp != NULL && i < position - 1; i++) {
+		temp = temp->link;
+	}
+
+	// 리스트의 끝이거나, position이 유효하지 않은 경우
+	if (temp == NULL || temp->link == NULL) return;
+
+	// 삭제할 노드의 다음 노드 nextNode 변수에 저장
+	listNode* nextNode = temp->link->link;
+
+	// 삭제할 노드의 메모리를 해제
+	free(temp->link);
+
+	// 이전 노드의 link를 삭제할 노드의 다음 노드로 업데이트
+	temp->link = nextNode;
 }
 
 
@@ -290,6 +332,8 @@ int main040() {
 	deleteFirstNode(L);
 	printList(L);
 	printf("<4> 중간 노드 삭제하기\n");
+	deleteNodeAtPosition(L, 3);
+	printList(L);
 
 
 	printf("<5> 리스트 원소를 역순으로 변환하기!\n");
