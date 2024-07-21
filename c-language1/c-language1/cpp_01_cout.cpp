@@ -83,7 +83,7 @@ void main106() {
 
 
 //레퍼런스변수를 이용한 for문
-int main() {
+int main001() {
 	int arr[] = { 1,2,3,4,5,6,7,8,9,10 };
 
 	for (int &i : arr) {//레퍼런스변수로 선언해야 arr의 각 칸을 바꿀수있음.
