@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -135,6 +135,17 @@
     <ClCompile Include="07variable.c" />
     <ClCompile Include="08pointer.c" />
     <ClCompile Include="09pointer-operator.c" />
+    <ClCompile Include="101lesson.c" />
+    <ClCompile Include="102lesson.c" />
+    <ClCompile Include="103lesson.c" />
+    <ClCompile Include="104lesson.c" />
+    <ClCompile Include="13struct-function.c" />
+    <ClCompile Include="14typedef.c" />
+    <ClCompile Include="exam2-3.c" />
+    <ClCompile Include="practice01.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="exam2-3.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
