@@ -3,7 +3,11 @@
 #include <stdint.h>    // 크기별로 정수 자료형이 정의된 헤더 파일
 
 
+<<<<<<< Updated upstream
 int main01()
+=======
+int main()
+>>>>>>> Stashed changes
 {
     printf("Hello, world!\n");
     printf("%s\n", "안녕!");
