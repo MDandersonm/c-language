@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="data-structure.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="01pointer-array.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="02factorial.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="03linear-list.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="04linear-linked-list.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="05circle-linked-list.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="06doubly-linked-list.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="07stack01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="08linked-stack.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="09stack-test-pair.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10eval-post-fix.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11infix-to-postfix.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="12queue01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="13circle-queue.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="14linked-queue.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15binary-tree-traversal.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="16binary-tree-folder-size.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="17binary-search-tree.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="18heap.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="19graph-matrix.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="20graph-list.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="21DFS.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="22BFS.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="23selection-sort.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="24bubble-sort.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="25bubble-sort2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="26quick-sort.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="30.binary-tree-search.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="27insert-sort.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="28shell-sort.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="29merge-sort.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="26-1quick-sort-ans.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="31radix-sort.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="040linked-list.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="090linked-stack.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="0120queue01.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="0220bfs.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="0140queue02.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
