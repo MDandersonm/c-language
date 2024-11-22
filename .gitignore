@@ -99,8 +99,6 @@ dkms.conf
 
 # End of https://www.toptal.com/developers/gitignore/api/c
 
-
-<<<<<<< Updated upstream
 # 빌드 결과물
 c-language1/c-language1/x64/Debug/*
 c-language/x64/Debug/*
@@ -108,7 +106,8 @@ knou-c/x64/Debug/*
 knou-c/knou-c/x64/Debug/*
 c-test-home/c-test-home/x64/Debug/*
 c-test-home/x64/Debug/*
-=======
+test1/x64/Debug/*
 *.log
 *tlog
->>>>>>> Stashed changes
+
+

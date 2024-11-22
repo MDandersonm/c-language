@@ -39,34 +39,29 @@
     <ClCompile Include="09pointer-operator.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="13struct-function.c">
+    <ClCompile Include="10pointer-array.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="14typedef.c">
+    <ClCompile Include="11double-pointer.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="101lesson.c">
+    <ClCompile Include="12structure.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="102lesson.c">
+    <ClCompile Include="13file.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="103lesson.c">
+    <ClCompile Include="14random-file.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="104lesson.c">
+    <ClCompile Include="15memory.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="exam2-3.c">
+    <ClCompile Include="16practice.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="practice01.c">
+    <ClCompile Include="17exam1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="exam2-3.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

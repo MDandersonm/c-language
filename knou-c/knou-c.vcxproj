@@ -135,17 +135,14 @@
     <ClCompile Include="07variable.c" />
     <ClCompile Include="08pointer.c" />
     <ClCompile Include="09pointer-operator.c" />
-    <ClCompile Include="101lesson.c" />
-    <ClCompile Include="102lesson.c" />
-    <ClCompile Include="103lesson.c" />
-    <ClCompile Include="104lesson.c" />
-    <ClCompile Include="13struct-function.c" />
-    <ClCompile Include="14typedef.c" />
-    <ClCompile Include="exam2-3.c" />
-    <ClCompile Include="practice01.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="exam2-3.h" />
+    <ClCompile Include="10pointer-array.c" />
+    <ClCompile Include="11double-pointer.c" />
+    <ClCompile Include="12structure.c" />
+    <ClCompile Include="13file.c" />
+    <ClCompile Include="14random-file.c" />
+    <ClCompile Include="15memory.c" />
+    <ClCompile Include="16practice.c" />
+    <ClCompile Include="17exam1.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
